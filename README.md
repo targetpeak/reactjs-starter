@@ -1,4 +1,4 @@
-[![Dependency Status](https://david-dm.org/prismicio/reactjs-starter.svg)](https://david-dm.org/prismicio/reactjs-starter)
+[![Dependency Status](https://david-dm.org/prismicio/reactjs-starter.svg)](https://david-dm.org/targetpeak/reactjs-starter)
 
 # Prismic React Starter
 This project has been created with [`create-react-app`](https://github.com/facebookincubator/create-react-app). We added a zest of [prismic](https://github.com/prismicio/javascript-kit) inside it.
