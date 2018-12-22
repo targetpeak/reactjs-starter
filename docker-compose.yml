@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  cms-ui:
+    container_name: cms-ui
+    image: cms-ui
+    ports:
+      - '8085:80'
+    environment:
+      - "PROXY_HOST=http://localhost:8080"

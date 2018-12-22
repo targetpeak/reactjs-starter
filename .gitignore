@@ -21,3 +21,5 @@ yarn-error.log*
 # Output of 'npm pack'
 *.tgz
 
+# Optional eslint cache
+.eslintcache

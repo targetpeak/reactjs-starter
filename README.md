@@ -27,6 +27,30 @@ Build and open your browser to http://localhost:3000.
 
 You can find out how to get started with prismic.io from [our React documentation](https://prismic.io/docs/reactjs/getting-started/getting-started-from-scratch).
 
+
+## Dockerise React:
+Passing environment variables to nginx docker - https://github.com/docker-library/docs/issues/496.
+From https://mherman.org/blog/dockerizing-a-react-app/. The dev Docker can be built using:
+
+### Building in dev
+Manually build dev image using:
+```bash
+docker build -f Dockerfile-dev -t cms-ui-dev .
+```
+
+### Building production image
+To build optimised production image:
+```bash
+docker build -f Dockerfile -t cms-ui .
+```
+
+### Start up services
+To start in containers:
+```bash
+docker-compose -f docker-compose-dev.yml up # For dev - with auto-recompiling for code changes
+docker-compose -f docker-compose-dev.yml up # For prod stack - assumes image exists
+```
+
 ### Licence
 
 This software is licensed under the Apache 2 license, quoted below.
