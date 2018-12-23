@@ -51,6 +51,12 @@ docker-compose -f docker-compose-dev.yml up # For dev - with auto-recompiling fo
 docker-compose -f docker-compose-dev.yml up # For prod stack - assumes image exists
 ```
 
+### Custom types examples
+```text
+https://user-guides.prismic.io/examples/nodejs-samples/sample-multi-page-site-with-navigation-in-nodejs
+https://user-guides.prismic.io/examples/nodejs-samples/sample-blog-with-api-based-cms-in-nodejs
+
+```
 ### Licence
 
 This software is licensed under the Apache 2 license, quoted below.
